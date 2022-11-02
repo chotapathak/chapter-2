@@ -26,7 +26,7 @@ contract Funding{
         (bool sent, bytes memory data) = user.call{value: msg.value, gas:20001}("");
         //bool is for confirmation and data is what we generate and send with transaction
         require(sent, "failed to send");
-        emit Sent(user, msg.value)
+        emit Sent(user, msg.value);
 
     }
 }

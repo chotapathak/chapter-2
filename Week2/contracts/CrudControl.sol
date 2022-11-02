@@ -14,7 +14,7 @@ contract CrudControl {
         string email;
         uint256 id;
     }
-
+    
     User[] public users;
 
     mapping(address => uint256) public userID;
@@ -50,13 +50,13 @@ contract CrudControl {
     }
 
     function deleteUser(address _user) public returns (uint256 adminId) {
-        adminId =  userID[_user];
+        adminId =  userID[_user];   
         User storage user = users[adminId];
         require(user.id == adminId, "not the owner");
 
         require(userID[msg.sender] == adminId, "ID not matched");
         delete users[adminId];
-
+        
         // for(uint i = 0; i < users.length; i++){
         //     if(userID[msg.sender] == adminId){
         //         delete users[adminId];
