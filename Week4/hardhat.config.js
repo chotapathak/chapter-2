@@ -6,10 +6,12 @@ module.exports = {
   networks: {
     goerli : {
       url: "https://eth-goerli.g.alchemy.com/v2/0PN3WL10d6LsrKw1bUPlG0eui5g7b3lS",
-      accounts: ["c1b365f66a3a0c0d103582726347a0604b501ea4239eb37b576842169761b964"]
-
-    }
-  }
+      accounts: ["c1b365f66a3a0c0d103582726347a0604b501ea4239eb37b576842169761b964"],
+    },
+  },
+  etherscan: {
+    apiKey: "68W5RZD7IJ3WYKE418VM84839Y9T52KKR9",
+  },
 };
 
 

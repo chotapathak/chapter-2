@@ -81,7 +81,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Escrow</h1>
-        <span>MetaMask : {signer?.signer} </span>
         <button onClick={connect}>Connect</button>
         <span> Contract address : {contract?.address}</span>
         <button onClick={deposit}>Deposit : {amount}</button>

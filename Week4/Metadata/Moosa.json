@@ -1,0 +1,32 @@
+{
+    "name": "Subhdeep Singh Sidhu ",
+    "description": "Music legend",
+    "image": "https://ipfs.io/ipfs/QmQoQQTGVJ5y9cvFR3p41CDTHvbUeVb183b1cqKHKWzHDx",
+    "attributes": [
+        {
+            "trait_type": "Music",
+            "value": 11,
+            "max_value": 10 
+        },
+        {
+            "trait_type": "Honesty",
+            "value": 11,
+            "max_value": 10 
+        },
+        {
+            "trait_type": "Down to earth",
+            "value": 10,
+            "max_value": 10 
+        },
+        {
+            "trait_type": "Voice",
+            "value": 10,
+            "max_value": 10 
+        },
+        {
+            "trait_type": "Vision",
+            "value": 10,
+            "max_value": 10 
+        }
+    ]
+}

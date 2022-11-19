@@ -1,0 +1,22 @@
+{
+    "name": "Sidhu",
+    "description": "Music legend",
+    "image": "https://ipfs.io/ipfs/QmQ8iTtJQ9rS35JFp9u3BNV5iPAnYEJDjt3wNNxYMqe4jW",
+    "attributes": [
+        {
+            "trait_type": "Music",
+            "value": 11,
+            "max_value": 10 
+        },
+        {
+            "trait_type": "Voice",
+            "value": 10,
+            "max_value": 10 
+        },
+        {
+            "trait_type": "Vision",
+            "value": 10,
+            "max_value": 10 
+        }
+    ]
+}
