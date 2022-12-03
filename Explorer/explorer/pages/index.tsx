@@ -24,14 +24,6 @@ const Home = () => {
   
 
   // Optional Config object, but defaults to demo api-key and eth-mainnet.
-  // const uploadNft = async (e: any) => {
-  //     e.preventDefault();
-  //   const node = await IPFS.
-  //   const data = 'nsnsn'
-  //   const files = await node.add(data)
-  //   console.log(files)
-  // }
-
   const uploadNft = async (e: any) => {
     e.preventDefault();
     console.log(e.target.files[0]);

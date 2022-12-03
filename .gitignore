@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+.env
+/.env
 # testing
 /coverage
 
@@ -15,7 +17,6 @@
 # production
 /build
 
-.env
 # misc
 .DS_Store
 *.pem
@@ -37,3 +38,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
